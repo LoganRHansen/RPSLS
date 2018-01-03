@@ -13,7 +13,7 @@ namespace rpsls
             string inputPlayer, inputComp;
             int randomNum;
 
-            Console.WriteLine("Choose rock, paper, scissors, lizard, or spock")
+            Console.WriteLine("Choose rock, paper, scissors, lizard, or spock");
                 inputPlayer = Console.ReadLine();
 
             Random random = new Random();
@@ -28,26 +28,26 @@ namespace rpsls
                     }
                      else if (inputPlayer == "paper")
                     {
-                        Console.WriteLine("you win");
+                        Console.WriteLine("player 1 wins");
                     }
                     else if (inputPlayer == "scissors")
                     {
-                        Console.WriteLine("you lose");
+                        Console.WriteLine("player 2 wins");
                     }
                     else if (inputPlayer == "lizard")
                     {
-                        Console.WriteLine("you lose");
+                        Console.WriteLine("player 2 wins");
                     }
                     else if (inputPlayer == "spock")
                     {
-                        Console.WriteLine("you win");
+                        Console.WriteLine("player 1 wins");
                     }
                     break;
                 case 2:
                     inputComp = "paper";
                     if (inputPlayer == "rock")
                     {
-                        Console.WriteLine("you lose");
+                        Console.WriteLine("player 2 wins");
                     }
                     else if (inputPlayer == "paper")
                     {
@@ -55,26 +55,26 @@ namespace rpsls
                     }
                     else if (inputPlayer == "scissors")
                     {
-                        Console.WriteLine("you win");
+                        Console.WriteLine("player 1 wins");
                     }
                     else if (inputPlayer == "lizard")
                     {
-                        Console.WriteLine("you win");
+                        Console.WriteLine("player 1 wins");
                     }
                     else if (inputPlayer == "spock")
                     {
-                        Console.WriteLine("you lose");
+                        Console.WriteLine("player 2 wins");
                     }
                     break;
                 case 3:
                     inputComp = "scissors";
                     if (inputPlayer == "rock")
                     {
-                        Console.WriteLine("you win");
+                        Console.WriteLine("player 1 wins");
                     }
                     else if (inputPlayer == "paper")
                     {
-                        Console.WriteLine("you lose");
+                        Console.WriteLine("player 2 wins");
                     }
                     else if (inputPlayer == "scissors")
                     {
@@ -82,26 +82,26 @@ namespace rpsls
                     }
                     else if (inputPlayer == "lizard")
                     {
-                        Console.WriteLine("you lose");
+                        Console.WriteLine("player 2 wins");
                     }
                     else if (inputPlayer == "spock")
                     {
-                        Console.WriteLine("you win");
+                        Console.WriteLine("player 1 wins");
                     }
                     break;
                 case 4:
                     inputComp = "lizard";
                     if (inputPlayer == "rock")
                     {
-                        Console.WriteLine("you win");
+                        Console.WriteLine("player 1 wins");
                     }
                     else if (inputPlayer == "paper")
                     {
-                        Console.WriteLine("you lose");
+                        Console.WriteLine("player 2 wins");
                     }
                     else if (inputPlayer == "scissors")
                     {
-                        Console.WriteLine("you win");
+                        Console.WriteLine("player 1 wins");
                     }
                     else if (inputPlayer == "lizard")
                     {
@@ -109,26 +109,26 @@ namespace rpsls
                     }
                     else if (inputPlayer == "spock")
                     {
-                        Console.WriteLine("you lose");
+                        Console.WriteLine("player 2 wins");
                     }
                     break;
                 case 5:
                     inputComp = "spock";
                     if (inputPlayer == "rock")
                     {
-                        Console.WriteLine("you lose");
+                        Console.WriteLine("player 2 wins");
                     }
                     else if (inputPlayer == "paper")
                     {
-                        Console.WriteLine("you win");
+                        Console.WriteLine("player 1 wins");
                     }
                     else if (inputPlayer == "scissors")
                     {
-                        Console.WriteLine("you lose");
+                        Console.WriteLine("player 2 wins");
                     }
                     else if (inputPlayer == "lizard")
                     {
-                        Console.WriteLine("you win");
+                        Console.WriteLine("player 1 wins");
                     }
                     else if (inputPlayer == "spock")
                     {
