@@ -1,0 +1,6 @@
+c:\users\lrh14\documents\visual studio 2015\Projects\rpsls\rpsls\bin\Debug\rpsls.exe.config
+c:\users\lrh14\documents\visual studio 2015\Projects\rpsls\rpsls\bin\Debug\rpsls.exe
+c:\users\lrh14\documents\visual studio 2015\Projects\rpsls\rpsls\bin\Debug\rpsls.pdb
+c:\users\lrh14\documents\visual studio 2015\Projects\rpsls\rpsls\obj\Debug\rpsls.csprojResolveAssemblyReference.cache
+c:\users\lrh14\documents\visual studio 2015\Projects\rpsls\rpsls\obj\Debug\rpsls.exe
+c:\users\lrh14\documents\visual studio 2015\Projects\rpsls\rpsls\obj\Debug\rpsls.pdb
