@@ -22,20 +22,41 @@ namespace rpsls
             {
                 case 1:
                     inputComp = "rock";
+                    if (inputPlayer == "rock")
+                    {
+                        Console.WriteLine("draw");
+                    }
                     break;
                 case 2:
                     inputComp = "paper";
+                    if (inputPlayer == "rock")
+                    {
+                        Console.WriteLine("you lose");
+                    }
                     break;
                 case 3:
                     inputComp = "scissors";
+                    if (inputPlayer == "rock")
+                    {
+                        Console.WriteLine("you win");
+                    }
                     break;
                 case 4:
                     inputComp = "lizard";
+                    if (inputPlayer == "rock")
+                    {
+                        Console.WriteLine("you win");
+                    }
                     break;
                 case 5:
                     inputComp = "spock";
+                    if (inputPlayer == "rock")
+                    {
+                        Console.WriteLine("you lose");
+                    }
                     break;
                 default:
+                    Console.WriteLine("OOPS");
                     break;
             }
         }
