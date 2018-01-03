@@ -26,12 +26,28 @@ namespace rpsls
                     {
                         Console.WriteLine("draw");
                     }
+                     else if (inputPlayer == "paper")
+                    {
+                        Console.WriteLine("you win");
+                    }
+                    else if (inputPlayer == "scissors")
+                    {
+                        Console.WriteLine("you lose");
+                    }
                     break;
                 case 2:
                     inputComp = "paper";
                     if (inputPlayer == "rock")
                     {
                         Console.WriteLine("you lose");
+                    }
+                    else if (inputPlayer == "paper")
+                    {
+                        Console.WriteLine("draw");
+                    }
+                    else if (inputPlayer == "scissors")
+                    {
+                        Console.WriteLine("you win");
                     }
                     break;
                 case 3:
@@ -40,6 +56,14 @@ namespace rpsls
                     {
                         Console.WriteLine("you win");
                     }
+                    else if (inputPlayer == "paper")
+                    {
+                        Console.WriteLine("you lose");
+                    }
+                    else if (inputPlayer == "scissors")
+                    {
+                        Console.WriteLine("draw");
+                    }
                     break;
                 case 4:
                     inputComp = "lizard";
@@ -47,10 +71,26 @@ namespace rpsls
                     {
                         Console.WriteLine("you win");
                     }
+                    else if (inputPlayer == "paper")
+                    {
+                        Console.WriteLine("you lose");
+                    }
+                    else if (inputPlayer == "scissors")
+                    {
+                        Console.WriteLine("you win");
+                    }
                     break;
                 case 5:
                     inputComp = "spock";
                     if (inputPlayer == "rock")
+                    {
+                        Console.WriteLine("you lose");
+                    }
+                    else if (inputPlayer == "paper")
+                    {
+                        Console.WriteLine("you win");
+                    }
+                    else if (inputPlayer == "scissors")
                     {
                         Console.WriteLine("you lose");
                     }
