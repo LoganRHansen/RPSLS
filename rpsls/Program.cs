@@ -34,6 +34,14 @@ namespace rpsls
                     {
                         Console.WriteLine("you lose");
                     }
+                    else if (inputPlayer == "lizard")
+                    {
+                        Console.WriteLine("you lose");
+                    }
+                    else if (inputPlayer == "spock")
+                    {
+                        Console.WriteLine("you win");
+                    }
                     break;
                 case 2:
                     inputComp = "paper";
@@ -48,6 +56,14 @@ namespace rpsls
                     else if (inputPlayer == "scissors")
                     {
                         Console.WriteLine("you win");
+                    }
+                    else if (inputPlayer == "lizard")
+                    {
+                        Console.WriteLine("you win");
+                    }
+                    else if (inputPlayer == "spock")
+                    {
+                        Console.WriteLine("you lose");
                     }
                     break;
                 case 3:
@@ -64,6 +80,14 @@ namespace rpsls
                     {
                         Console.WriteLine("draw");
                     }
+                    else if (inputPlayer == "lizard")
+                    {
+                        Console.WriteLine("you lose");
+                    }
+                    else if (inputPlayer == "spock")
+                    {
+                        Console.WriteLine("you win");
+                    }
                     break;
                 case 4:
                     inputComp = "lizard";
@@ -79,6 +103,14 @@ namespace rpsls
                     {
                         Console.WriteLine("you win");
                     }
+                    else if (inputPlayer == "lizard")
+                    {
+                        Console.WriteLine("draw");
+                    }
+                    else if (inputPlayer == "spock")
+                    {
+                        Console.WriteLine("you lose");
+                    }
                     break;
                 case 5:
                     inputComp = "spock";
@@ -93,6 +125,14 @@ namespace rpsls
                     else if (inputPlayer == "scissors")
                     {
                         Console.WriteLine("you lose");
+                    }
+                    else if (inputPlayer == "lizard")
+                    {
+                        Console.WriteLine("you win");
+                    }
+                    else if (inputPlayer == "spock")
+                    {
+                        Console.WriteLine("draw");
                     }
                     break;
                 default:
